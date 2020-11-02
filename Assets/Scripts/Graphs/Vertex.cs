@@ -4,15 +4,24 @@ using UnityEngine;
 
 public class Vertex : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public bool WasVisited
     {
+        get { return wasVisisted; }
+        set { value = wasVisisted; }
         
     }
+    private bool wasVisisted;
 
-    // Update is called once per frame
-    void Update()
+    public string Label
     {
-        
+        get { return label; }
+        set { value = label; }
+    }
+    private string label;
+
+    public Vertex(string lbl)
+    {
+        this.Label = lbl;
+        WasVisited = false;
     }
 }
