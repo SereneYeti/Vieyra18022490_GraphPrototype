@@ -1,0 +1,83 @@
+{
+    "SocialBotLines": [
+        {
+            "characterID": "b",
+            "interactingID": "f",
+            "characterNickname": "SocialBot",
+            "dialogueSequence": "a",
+            "reqInv": "",
+            "lineID": 0,
+            "endTalkArrPos": -1,
+            "characterLine": "Hey there Fin! It's been a while!",
+            "possibleResponses": [
+                0,
+                -1
+            ]
+        },
+        {
+            "characterID": "b",
+            "interactingID": "f",
+            "characterNickname": "SocialBot",
+            "dialogueSequence": "a",
+            "reqInv": "",
+            "lineID": 1,
+            "endTalkArrPos": -1,
+            "characterLine": "What have you been up to since?",
+            "possibleResponses": [
+                1
+            ]
+        },
+        {
+            "characterID": "b",
+            "interactingID": "f",
+            "characterNickname": "SocialBot",
+            "dialogueSequence": "a",
+            "reqInv": "",
+            "lineID": 2,
+            "endTalkArrPos": -1,
+            "characterLine": "Well that really sucks! Maybe that item can help you!",
+            "possibleResponses": [
+                2
+            ]
+        },
+        {
+            "characterID": "b",
+            "interactingID": "f",
+            "characterNickname": "SocialBot",
+            "dialogueSequence": "a",
+            "reqInv": "",
+            "lineID": 3,
+            "endTalkArrPos": -1,
+            "characterLine": "The one by that rad Plug Point",
+            "possibleResponses": [
+                3
+            ]
+        },
+        {
+            "characterID": "b",
+            "interactingID": "f",
+            "characterNickname": "SocialBot",
+            "dialogueSequence": "a",
+            "reqInv": "",
+            "lineID": 4,
+            "endTalkArrPos": -1,
+            "characterLine": "Thats the one! Hope you find it bro! I gots to go!",
+            "possibleResponses": [
+                5
+            ]
+        },        
+        {
+            "characterID": "b",
+            "interactingID": "f",
+            "characterNickname": "SocialBot",
+            "dialogueSequence": "a",
+            "reqInv": "",
+            "lineID": -1,
+            "endTalkPos": -1,
+            "characterLine": "Cheers!",
+            "possibleResponses": [
+                -1
+            ]
+        }
+    ]
+}

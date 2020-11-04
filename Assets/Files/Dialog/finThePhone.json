@@ -1,0 +1,188 @@
+{
+  "FinThePhoneLines": [
+    {
+      "characterID": "f",
+      "interactingID": "s",
+      "startCharacterID" :  "s",
+      "characterNickname": "FinThePhone",
+      "dialogueSequence": "A",
+      "reqInv": "",
+      "lineID": 0,
+      "endTalkArrPos": -1,
+      "characterLine": "Hi! My name is Fin!",
+      "possibleResponses": [
+        1
+      ]
+    },
+    {
+      "characterID": "f",
+      "interactingID": "s",
+      "startCharacterID": "s",
+      "characterNickname": "FinThePhone",
+      "dialogueSequence": "A",
+      "reqInv": "",
+      "lineID": 1,
+      "endTalkArrPos": -1,
+      "characterLine": "What do you mean?",
+      "possibleResponses": [
+        2
+      ]
+    },
+    {
+      "characterID": "f",
+      "interactingID": "s",
+      "startCharacterID": "s",
+      "characterNickname": "FinThePhone",
+      "dialogueSequence": "A",
+      "reqInv": "",
+      "lineID": 2,
+      "endTalkArrPos": -1,
+      "characterLine": "Why should I care?",
+      "possibleResponses": [
+        6
+      ]
+    },
+    {
+      "characterID": "f",
+      "interactingID": "s",
+      "startCharacterID": "s",
+      "characterNickname": "FinThePhone",
+      "dialogueSequence": "A",
+      "reqInv": "",
+      "lineID": 3,
+      "endTalkPos": -1,
+      "characterLine": "Well this is lame.",
+      "possibleResponses": [
+        3
+      ]
+    },
+    {
+      "characterID": "f",
+      "interactingID": "s",
+      "startCharacterID": "s",
+      "characterNickname": "FinThePhone",
+      "dialogueSequence": "A",
+      "reqInv": "",
+      "lineID": 4,
+      "endTalkPos": -1,
+      "characterLine": "Realy?\nBut how can something that feels so nice be so bad?",
+      "possibleResponses": [
+        3
+      ]
+    },
+    {
+      "characterID": "f",
+      "interactingID": "s",
+      "startCharacterID": "s",
+      "characterNickname": "FinThePhone",
+      "dialogueSequence": "A",
+      "reqInv": "",
+      "lineID": 4,
+      "endTalkPos": -1,
+      "characterLine": "This sounds bad, is there anything I can do to cure myself?",
+      "possibleResponses": [
+        4
+      ]
+    },
+    {
+      "characterID": "f",
+      "interactingID": "s",
+      "startCharacterID": "s",
+      "characterNickname": "FinThePhone",
+      "dialogueSequence": "A",
+      "reqInv": "",
+      "lineID": 5,
+      "endTalkPos": -1,
+      "characterLine": "Alrighty!\n That doesnt sound to bad, where do you think I should begin?",
+      "possibleResponses": [
+        5
+      ]
+    },
+    {
+      "characterID": "f",
+      "interactingID": "s",
+      "startCharacterID": "s",
+      "characterNickname": "FinThePhone",
+      "dialogueSequence": "A",
+      "reqInv": "",
+      "lineID": 6,
+      "endTalkPos": -1,
+      "characterLine": "Thanks for the help!",
+      "possibleResponses": [
+        -1
+      ]
+    },
+    {
+      "characterID": "f",
+      "interactingID": "s",
+      "startCharacterID": "s",
+      "characterNickname": "FinThePhone",
+      "dialogueSequence": "A",
+      "reqInv": "",
+      "lineID": -1,
+      "endTalkPos": -1,
+      "characterLine": "Goodbye Sage!",
+      "possibleResponses": []
+    },
+    {
+      "characterID": "f",
+      "interactingID": "b",
+      "startCharacterID": "b",
+      "characterNickname": "FinThePhone",
+      "dialogueSequence": "B",
+      "reqInv": "",
+      "lineID": 0,
+      "endTalkPos": -1,
+      "characterLine": "Hey SB it really has! the last time I saw you was just before i got sick!",
+      "possibleResponses": [ 0 ]
+    },
+    {
+      "characterID": "f",
+      "interactingID": "b",
+      "startCharacterID": "b",
+      "characterNickname": "FinThePhone",
+      "dialogueSequence": "B",
+      "reqInv": "",
+      "lineID": 1,
+      "endTalkPos": -1,
+      "characterLine": "I...\nI don't remember...",
+      "possibleResponses": [ 1 ]
+    },
+    {
+      "characterID": "f",
+      "interactingID": "b",
+      "startCharacterID": "b",
+      "characterNickname": "FinThePhone",
+      "dialogueSequence": "B",
+      "reqInv": "",
+      "lineID": 2,
+      "endTalkPos": -1,
+      "characterLine": "What Item?",
+      "possibleResponses": [ 3 ]
+    },
+    {
+      "characterID": "f",
+      "interactingID": "b",
+      "startCharacterID": "b",
+      "characterNickname": "FinThePhone",
+      "dialogueSequence": "B",
+      "reqInv": "",
+      "lineID": 3,
+      "endTalkPos": -1,
+      "characterLine": "oh the one that everyone has heard of?",
+      "possibleResponses": [ 4 ]
+    },
+    {
+      "characterID": "f",
+      "interactingID": "b",
+      "startCharacterID": "b",
+      "characterNickname": "FinThePhone",
+      "dialogueSequence": "B",
+      "reqInv": "",
+      "lineID": -1,
+      "endTalkPos": -1,
+      "characterLine": "See you around SB!",
+      "possibleResponses": []
+    }
+  ]
+}

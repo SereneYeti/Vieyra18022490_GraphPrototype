@@ -3,19 +3,26 @@ using UnityEngineInternal;
 
 public class Graph
 {
-    private const int NUM_VERTICES = 20;
+    private const int NUM_VERTICES = 4;
     private Vertex[] vertices;
     private int[,] adjMatrix;
+    public int[,] AdjMatrix { get => adjMatrix; set => adjMatrix = value; }
     int numVerts;
+    GenericStack gStack = new GenericStack();
 
     public Graph()
     {
         vertices = new Vertex[NUM_VERTICES];
-        adjMatrix = new int[NUM_VERTICES, NUM_VERTICES];
+        AdjMatrix = new int[NUM_VERTICES, NUM_VERTICES];
         numVerts = 0;
         for (int j = 0; j < NUM_VERTICES; j++)
-            for (int k = 0; k < NUM_VERTICES - 1; k++)
-                adjMatrix[j, k] = 0;
+        {
+            for (int k = 0; k <= NUM_VERTICES - 1; k++)
+            {
+                AdjMatrix[j, k] = 0;
+                //Debug.Log("k" + k + "\nj" + j + "\n" + AdjMatrix[j, k]);                                
+            }
+        }
     }
     public void AddVertex(string label)
     {
@@ -24,28 +31,44 @@ public class Graph
     }
     public void AddEdge(int start, int eend)
     {
-        adjMatrix[start, eend] = 1;
-        adjMatrix[eend, start] = 1;
+        AdjMatrix[start, eend] = 1;
+        AdjMatrix[eend, start] = 1;
     }
     public string ReturnVertex(int v)
     {
         return vertices[v].Label + " ";
     }
+    public void DisplayMatrix()
+    {
+        string output = "";
+
+        for (int j = 0; j < NUM_VERTICES; j++)
+        {
+            output += "Line: " + j + ";";
+            for (int k = 0; k < NUM_VERTICES - 1; k++)
+            {               
+               output += " " + AdjMatrix[j, k] + ",";               
+            }
+            output += "\n";
+            Debug.Log(output);
+        }
+       
+    }
     public int NoSuccessors()
     {
         bool isEdge;
-        for(int row = 0; row < numVerts - 1;row++)
+        for(int row = 0; row <= numVerts - 1;row++)
         {
             isEdge = false;
             for(int col = 0; col <= numVerts - 1;col++)
             {
-                if(adjMatrix[row,col] > 0)
+                if(AdjMatrix[row,col] > 0)
                 {
                     isEdge = true;
                     break;
                 }
             }
-            if (!(isEdge))
+            if (!isEdge)
             { return row; }
         }
         return -1;
@@ -65,16 +88,16 @@ public class Graph
     private void MoveRow(int row, int length)
     {
         for (int col = 0; col <= length - 1; col++)
-            adjMatrix[row, col] = adjMatrix[row + 1, col];
+            AdjMatrix[row, col] = AdjMatrix[row + 1, col];
     }
     private void MoveCol(int col, int length)
     {
         for (int row = 0; row <= length - 1; row++)
-            adjMatrix[row, col] = adjMatrix[row, col + 1];
+            AdjMatrix[row, col] = AdjMatrix[row, col + 1];
     }
     public void TopSort()
     {
-        GenericStack gStack = new GenericStack();
+        
         int origVerts = numVerts;
         while (numVerts > 0)
         {

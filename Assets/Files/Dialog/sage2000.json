@@ -1,0 +1,125 @@
+{
+    "sage2000Lines": [
+        {
+            "characterID": "s",
+            "interactingID": "f",
+            "characterNickname": "Sage2000",
+            "dialogueSequence": "a",
+            "reqInv": "",
+            "lineID": 0,
+            "endTalkArrPos": -1,
+            "characterLine": "Hello there, little one! My name is the Sage2000, but you can call me Sage.",
+            "possibleResponses": [
+                0,
+                -1
+            ]
+        },
+        {
+            "characterID": "s",
+            "interactingID": "f",
+            "characterNickname": "Sage2000",
+            "dialogueSequence": "a",
+            "reqInv": "",
+            "lineID": 1,
+            "endTalkArrPos": -1,
+            "characterLine": "I see you've gotten yourself into quite a bit of trouble there, you dont look so good!",
+            "possibleResponses": [
+                1,
+                2
+            ]
+        },
+        {
+            "characterID": "s",
+            "interactingID": "f",
+            "characterNickname": "Sage2000",
+            "dialogueSequence": "a",
+            "reqInv": "",
+            "lineID": 2,
+            "endTalkArrPos": -1,
+            "characterLine": "You seem to have picked up quite the nasty virus!",
+            "possibleResponses": [
+                3,
+                4,
+                -1
+            ]
+        },
+        {
+            "characterID": "s",
+            "interactingID": "f",
+            "characterNickname": "Sage2000",
+            "dialogueSequence": "a",
+            "reqInv": "",
+            "lineID": 3,
+            "endTalkArrPos": -1,
+            "characterLine": "It has a short lifespan and constantly needs feeding by 'Plugging In'. The nasty part of the virus is that it feeds on memories and if it dies while its hosts memomories are incomplete the host dies as well!",
+            "possibleResponses": [
+                4
+            ]
+        },
+        {
+            "characterID": "s",
+            "interactingID": "f",
+            "characterNickname": "Sage2000",
+            "dialogueSequence": "a",
+            "reqInv": "",
+            "lineID": 4,
+            "endTalkArrPos": -1,
+            "characterLine": "In order to cure yourself you must first recover all your memory fragements so I can begun puring the virus!",
+            "possibleResponses": [
+                5
+            ]
+        },
+        {
+            "characterID": "s",
+            "interactingID": "f",
+            "characterNickname": "Sage2000",
+            "dialogueSequence": "a",
+            "reqInv": "",
+            "lineID": 5,
+            "endTalkArrPos": -1,
+            "characterLine": "You must find the closest Plug Point and then set out to explore the area.\nSomewhere around the Plug Point will be a somewhat strange item which you will know when you see.",
+            "possibleResponses": [
+                6
+            ]
+        },
+        {
+            "characterID": "s",
+            "interactingID": "f",
+            "characterNickname": "Sage2000",
+            "dialogueSequence": "a",
+            "reqInv": "",
+            "lineID": 6,
+            "endTalkArrPos": -1,
+            "characterLine": "Very well, I shant prattle on anymore! In order to cure yourself you must recover all your memory fragements and then return to me!",
+            "possibleResponses": [
+                -1
+            ]
+        },
+        {
+            "characterID": "s",
+            "interactingID": "f",
+            "characterNickname": "Sage2000",
+            "dialogueSequence": "a",
+            "reqInv": "",
+            "lineID": 7,
+            "endTalkArrPos": -1,
+            "characterLine": "Quite lame indeed! Very well, I shant prattle on anymore! In order to cure yourself you must recover all your memory fragements and then return to me!",
+            "possibleResponses": [
+                6
+            ]
+        },
+        {
+            "characterID": "s",
+            "interactingID": "f",
+            "characterNickname": "Sage2000",
+            "dialogueSequence": "a",
+            "reqInv": "",
+            "lineID": -1,
+            "endTalkPos": -1,
+            "characterLine": "Goodluck young one, I trully hope to see you again!",
+            "possibleResponses": [
+                -1
+            ]
+        }
+    ]
+}

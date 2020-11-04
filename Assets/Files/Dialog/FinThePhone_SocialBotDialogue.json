@@ -1,0 +1,130 @@
+{
+    "fbDialogueALines": [
+        {
+            "characterID": "b",
+            "characterNickname": "SocialBot",
+            "dialogueSequence": "fb1",
+            "reqInv": "",
+            "lineID": 0,
+            "endTalkArrPos": -1,
+            "characterLine": "Hey there Fin! It's been a while!",
+            "possibleResponses": [
+                0,
+                -1
+            ]
+        },
+        {
+            "characterID": "f",
+            "characterNickname": "Fin",
+            "dialogueSequence": "fb1",
+            "reqInv": "",
+            "lineID": 0,
+            "endTalkPos": -1,
+            "characterLine": "Hey SB right? I think I remember you!",
+            "possibleResponses": [ 0 ]
+          },
+          {
+            "characterID": "b",
+            "characterNickname": "SocialBot",
+            "dialogueSequence": "fb1",
+            "reqInv": "",
+            "lineID": 1,
+            "endTalkArrPos": -1,
+            "characterLine": "We saw each other like just last week dude! Your alright?",
+            "possibleResponses": [
+                1
+            ]
+        },
+      {
+        "characterID": "f",
+        "startCharacterID": "b",
+        "characterNickname": "Fin",
+        "dialogueSequence": "fb1",
+        "reqInv": "",
+        "lineID": 1,
+        "endTalkPos": -1,
+        "characterLine": "I don't know man, I think I should be alright soon though.",
+        "possibleResponses": [ 1 ]
+      },
+          {
+            "characterID": "b",
+            "characterNickname": "SocialBot",
+            "dialogueSequence": "fb1",
+            "reqInv": "",
+            "lineID": 2,
+            "endTalkArrPos": -1,
+            "characterLine": "Well that really sucks! Maybe that item can help you in the chest can help you?",
+            "possibleResponses": [
+                2
+            ]
+        },
+      {
+        "characterID": "f",
+        "startCharacterID": "b",
+        "characterNickname": "Fin",
+        "dialogueSequence": "fb1",
+        "reqInv": "",
+        "lineID": 2,
+        "endTalkPos": -1,
+        "characterLine": "What Item?",
+        "possibleResponses": [ 3 ]
+      },
+          {
+            "characterID": "b",
+            "characterNickname": "SocialBot",
+            "dialogueSequence": "fb1",
+            "reqInv": "",
+            "lineID": 3,
+            "endTalkArrPos": -1,
+            "characterLine": "The one in the chest by that rad Plug Point bro! Don't you remember?",
+            "possibleResponses": [
+                3
+            ]
+        },
+      {
+        "characterID": "f",
+        "characterNickname": "Fin",
+        "dialogueSequence": "fb1",
+        "reqInv": "",
+        "lineID": 3,
+        "endTalkPos": -1,
+        "characterLine": "Oh that one! Its coming back to me.",
+        "possibleResponses": [ 4 ]
+      },
+          {
+            "characterID": "b",
+            "characterNickname": "SocialBot",
+            "dialogueSequence": "fb1",
+            "reqInv": "",
+            "lineID": 4,
+            "endTalkArrPos": -1,
+            "characterLine": "Thats the one! Hope you find it bro! I gots to go!",
+            "possibleResponses": [
+                5
+            ]
+        },
+      {
+        "characterID": "f",
+        "characterNickname": "Fin",
+        "dialogueSequence": "fb1",
+        "reqInv": "",
+        "lineID": -1,
+        "endTalkPos": -1,
+        "characterLine": "See you around SB!",
+        "possibleResponses": []
+      },
+          {
+            "characterID": "b",
+            "characterNickname": "SocialBot",
+            "dialogueSequence": "fb1",
+            "reqInv": "",
+            "lineID": -1,
+            "endTalkPos": -1,
+            "characterLine": "Cheers!",
+            "possibleResponses": [
+                -1
+            ]
+        }     
+    ]
+}
+   

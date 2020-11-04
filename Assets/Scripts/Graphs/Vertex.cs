@@ -3,15 +3,16 @@
     public bool WasVisited
     {
         get { return wasVisisted; }
-        set { value = wasVisisted; }
+        set { wasVisisted = value; }
         
     }
     private bool wasVisisted;
 
+    //Label = CharacterNickname + '_' + LineID
     public string Label
     {
         get { return label; }
-        set { value = label; }
+        set { label = value; }
     }
     private string label;
 
