@@ -65,7 +65,7 @@ public class GraphManager : MonoBehaviour
     {
         InitializeGraphs();
         DialogueManager.Instance.LoadGraphs();
-        Debug.Log(graphFin_Sage.ShowVertexID_Pos());
+        //Debug.Log(graphFin_Sage.ShowVertexID_Pos());
         graphFin_Sage.SetupEdges();
         graphFin_Sage.printAdjGraph();
         

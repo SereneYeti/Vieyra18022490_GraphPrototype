@@ -160,7 +160,7 @@ public class Graph
     {
         //int[] possibleRespones = new int[3];
         //int arrPos;
-        for (int i = 0; i < adjList.Length; i++)
+        for (int i = 0; i < vertices.Length; i++)
         {
             //First get the possible responses            
 
@@ -182,7 +182,7 @@ public class Graph
             }
             if (vertices[i].PossibleResponses != null)
             {
-                Debug.Log("I: " + vertices[i].PossibleResponses.Length);
+                //Debug.Log("I: " + vertices[i].PossibleResponses.Length);
                 for (int j = 0; j < vertices[i].PossibleResponses.Length; j++)
                 {   //Then search for the possible respones & get the Array pos
                     //arrPos = GetArrayPos(graph.vertices,j);                
@@ -190,12 +190,12 @@ public class Graph
                     {
                         if (vertices[i].PossibleResponses[j] - 1 == 19)
                         {
-                            Graph.addEdge(adjList, i, 18);
+                            addEdge(adjList, i, 18);
                             //Debug.Log(vertices[i].DialogueData.possibleResponses[j] - 1);
                         }
                         else if (vertices[i].PossibleResponses[j] != -1)
                         {
-                            Graph.addEdge(adjList, i, vertices[i].DialogueData.possibleResponses[j] - 1);
+                            addEdge(adjList, i, vertices[i].DialogueData.possibleResponses[j]);
                             //Debug.Log(vertices[i].DialogueData.possibleResponses[j] - 1);
                         }
 
@@ -210,10 +210,15 @@ public class Graph
     }
 
     public void AddVertex(dialogueData _dialogueData)
-    {        
-        vertices[vert] = new Vertex(_dialogueData.characterID + "_" + _dialogueData.lineID, _dialogueData.possibleResponses.Length
+    {
+        //Debug.Log(vert);
+        if(vert < 18)
+        {
+            vertices[vert] = new Vertex(_dialogueData.characterID + "_" + _dialogueData.lineID, _dialogueData.possibleResponses.Length
             , _dialogueData);
-        vert++;
+            vert++;
+        }
+        
     }
 
     public string ShowVertexID_Pos()
@@ -236,6 +241,7 @@ public class Graph
     {
         for (int i = 0; i < adjList.Length; i++)
         {
+            Debug.Log("VERTEX: " + vertices[i].DialogueData.ToString());
             Debug.Log("\nAdjacency list of vertex " + i);
             Debug.Log("head");
 
