@@ -67,7 +67,12 @@ public class GraphManager : MonoBehaviour
         DialogueManager.Instance.LoadGraphs();
         //Debug.Log(graphFin_Sage.ShowVertexID_Pos());
         graphFin_Sage.SetupEdges();
-        graphFin_Sage.printAdjGraph();
+        //graphFin_Sage.printAdjGraph();
+        foreach(int i in graphFin_Sage.adjList[3])
+        {
+            Debug.Log("LineID: " + graphFin_Sage.vertices[3].LineID + graphFin_Sage.vertices[3].DialogueData.ToString());
+            Debug.Log("Link: " + i);
+        }
         
     }
 
