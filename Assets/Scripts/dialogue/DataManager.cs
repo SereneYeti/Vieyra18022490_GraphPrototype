@@ -28,25 +28,36 @@ public class DataManager : MonoBehaviour
 
     public void LoadFS()
     {
+        DialogueManager.Instance.SetSageFile();
         string json = ReadFromFile(file);
-        //Debug.Log(json);
 
         fsdialogueA = JsonUtility.FromJson<fs_DialogueALines>(json);
-        //Debug.Log(fsdialogueA.fsDialogueALines[0].dialogueSequence);
-        DialogueManager.Instance.ReadDataOutOfArray(fsdialogueA.fsDialogueALines, fsdialogueA.fsDialogueALines[0].dialogueSequence);
+        //DialogueManager.Instance.ReadDataOutOfArray(fsdialogueA.fsDialogueALines, fsdialogueA.fsDialogueALines[0].dialogueSequence);
+        //ABOVE: Read DATA all in DialogueManager (COMMENTED OUT)
+        //BELLOW: Read Data into GraphManager
+        DialogueManager.Instance.ReturnDataFromArray(fsdialogueA.fsDialogueALines,
+            fsdialogueA.fsDialogueALines[0].dialogueSequence,GraphManager.Instance.graphFin_Sage);       
 
-        
+        //Debug.Log(tempLbl + "_" + tempData.ToString());
+        //GraphManager.Instance.graphFin_Sage.AddVertex(tempLbl);
 
     }
 
     public void LoadFB()
     {
+        DialogueManager.Instance.SetSocialFile();
         string json = ReadFromFile(file);
         //Debug.Log(json);
 
         fbdialogueA = JsonUtility.FromJson<fb_DialogueALines>(json);
         //Debug.Log(fbdialogueA.fbDialogueALines[0].dialogueSequence);
-        DialogueManager.Instance.ReadDataOutOfArray(fbdialogueA.fbDialogueALines, fbdialogueA.fbDialogueALines[0].dialogueSequence);
+        //DialogueManager.Instance.ReadDataOutOfArray(fbdialogueA.fbDialogueALines, fbdialogueA.fbDialogueALines[0].dialogueSequence);
+        //ABOVE: Read DATA all in DialogueManager (COMMENTED OUT)
+        //BELLOW: Read Data into GraphManager
+        DialogueManager.Instance.ReturnDataFromArray(fbdialogueA.fbDialogueALines,
+             fbdialogueA.fbDialogueALines[0].dialogueSequence, GraphManager.Instance.graphFin_Social);
+
+        //GraphManager.Instance.graphFin_Social.AddVertex(tempLbl);
 
     }
 

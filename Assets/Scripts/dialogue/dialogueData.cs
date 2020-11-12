@@ -10,6 +10,7 @@ public class dialogueData
 
     public string characterID;
 
+    public string startCharacterID;
 
     public string characterNickname;
 

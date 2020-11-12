@@ -6,12 +6,12 @@
       "dialogueSequence": "sf_1",
       "reqInv": "",
       "lineID": 1,
-      "numRespones": 2,
+      "numRespones": 1,
       "endTalkArrPos": 10,
       "characterLine": "Hello there little one, are you alright",
       "possibleResponses": [
-        1,
-        10
+        2
+        
       ]
     },
     {
@@ -20,38 +20,10 @@
       "characterNickname": "Fin",
       "dialogueSequence": "sf_1",
       "reqInv": "",
-      "lineID": 1,
+      "lineID": 2,
       "numRespones": 1,
       "endTalkArrPos": 10,
       "characterLine": "Hi… I don’t think so, I can’t remember my name or what I was doing!",
-      "possibleResponses": [
-        2
-      ]
-    },
-    {
-      "characterID": "s",
-      "characterNickname": "Sage2000",
-      "dialogueSequence": "sf_1",
-      "reqInv": "",
-      "lineID": 2,
-      "numRespones": 3,
-      "endTalkArrPos": 10,
-      "characterLine": "Well that’s no good! It sounds to me like you’ve been ‘plugging in’ little one!",
-      "possibleResponses": [
-        2,
-        3,
-        10
-      ]
-    },
-    {
-      "characterID": "f",
-      "characterNickname": "Fin",
-      "dialogueSequence": "sf_1",
-      "reqInv": "",
-      "lineID": 2,
-      "numRespones": 1,
-      "endTalkArrPos": 10,
-      "characterLine": "What’s ‘plugging in’ mean? ",
       "possibleResponses": [
         3
       ]
@@ -64,37 +36,10 @@
       "lineID": 3,
       "numRespones": 2,
       "endTalkArrPos": 10,
-      "characterLine": "Plugging in little one, is when you overuse the wall socket to make yourself feel good and can be harmful to you! ",
+      "characterLine": "Well that’s no good! It sounds to me like you’ve been ‘plugging in’ little one!",
       "possibleResponses": [
         4,
-        10
-      ]
-    },
-    {
-      "characterID": "f",
-      "characterNickname": "Fin",
-      "dialogueSequence": "sf_1",
-      "reqInv": "",
-      "lineID": 3,
-      "numRespones": 1,
-      "endTalkArrPos": 10,
-      "characterLine": "But I’ve only done it once or twice!",
-      "possibleResponses": [
-        4
-      ]
-    },
-    {
-      "characterID": "s",
-      "characterNickname": "Sage2000",
-      "dialogueSequence": "sf_1",
-      "reqInv": "",
-      "lineID": 4,
-      "numRespones": 2,
-      "endTalkArrPos": 10,
-      "characterLine": "Sigh… We both know that’s a lie don't we?",
-      "possibleResponses": [
-        6,
-        10
+        6        
       ]
     },
     {
@@ -104,8 +49,8 @@
       "reqInv": "",
       "lineID": 4,
       "numRespones": 1,
-      "endTalkPos": 10,
-      "characterLine": "Like, how I can’t remember anything? ",
+      "endTalkArrPos": 10,
+      "characterLine": "What’s ‘plugging in’ mean? ",
       "possibleResponses": [
         5
       ]
@@ -116,39 +61,11 @@
       "dialogueSequence": "sf_1",
       "reqInv": "",
       "lineID": 5,
-      "numRespones": 2,
-      "endTalkArrPos": 10,
-      "characterLine": "Exactly like that, but fear not! I can help you regain your memory and cure the virus’s ‘plugging in’ has given you",
-      "possibleResponses": [
-        5,
-        10
-      ]
-    },
-    {
-      "characterID": "f",
-      "characterNickname": "Fin",
-      "dialogueSequence": "sf_1",
-      "reqInv": "",
-      "lineID": 5,
       "numRespones": 1,
-      "endTalkPos": 10,
-      "characterLine": "Wow really? Thank you so much mister?",
-      "possibleResponses": [
-        6
-      ]
-    },
-    {
-      "characterID": "s",
-      "characterNickname": "Sage2000",
-      "dialogueSequence": "sf_1",
-      "reqInv": "",
-      "lineID": 6,
-      "numRespones": 2,
       "endTalkArrPos": 10,
-      "characterLine": "My name is the Sage2000, but you can call me Sage! Don’t forget that you need to use the ‘Plug point’ often otherwise you’ll die!",
+      "characterLine": "Plugging in little one, is when you overuse the wall socket to make yourself feel good and can be harmful to you! ",
       "possibleResponses": [
-        8,
-        10
+        8        
       ]
     },
     {
@@ -158,8 +75,8 @@
       "reqInv": "",
       "lineID": 6,
       "numRespones": 1,
-      "endTalkPos": 10,
-      "characterLine": "But I don’t remember using it much. ",
+      "endTalkArrPos": 10,
+      "characterLine": "But I’ve only done it once or twice!",
       "possibleResponses": [
         7
       ]
@@ -170,39 +87,12 @@
       "dialogueSequence": "sf_1",
       "reqInv": "",
       "lineID": 7,
-      "numRespones": 2,
-      "endTalkArrPos": 10,
-      "characterLine": "You don't remember due to overuse boy!",
-      "possibleResponses": [
-        7,
-        10
-      ]
-    },
-    {
-      "characterID": "f",
-      "characterNickname": "Fin",
-      "dialogueSequence": "sf_1",
-      "reqInv": "",
-      "lineID": 7,
       "numRespones": 1,
-      "endTalkPos": 10,
-      "characterLine": "Is there anything I can do to cure myself?",
-      "possibleResponses": [
-        8
-      ]
-    },
-    {
-      "characterID": "s",
-      "characterNickname": "Sage2000",
-      "dialogueSequence": "sf_1",
-      "reqInv": "",
-      "lineID": 8,
-      "numRespones": 2,
       "endTalkArrPos": 10,
-      "characterLine": "Retrieve your scattered memory fragments by completing puzzles and then return to me when you have one!",
+      "characterLine": "Sigh… We both know that’s a lie don't we?",
       "possibleResponses": [
-        9,
-        10
+        12
+        
       ]
     },
     {
@@ -213,35 +103,23 @@
       "lineID": 8,
       "numRespones": 1,
       "endTalkPos": 10,
-      "characterLine": "What do I need to do for you to cure me? ",
-      "possibleResponses": [
-        8
-      ]
-    },
-    {
-      "characterID": "s",
-      "characterNickname": "Sage2000",
-      "dialogueSequence": "sf_1",
-      "reqInv": "",
-      "lineID": 9,
-      "numRespones": 1,
-      "endTalkPos": 10,
-      "characterLine": "Goodbye little one! Have a safe journey! ",
-      "possibleResponses": [
-        10
-      ]
-    },
-    {
-      "characterID": "f",
-      "characterNickname": "Fin",
-      "dialogueSequence": "sf_1",
-      "reqInv": "",
-      "lineID": 9,
-      "numRespones": 1,
-      "endTalkPos": 10,
-      "characterLine": "Ok, thanks for all the help Sage, see you later!  ",
+      "characterLine": "Like, how I can’t remember anything? ",
       "possibleResponses": [
         9
+      ]
+    },
+    {
+      "characterID": "s",
+      "characterNickname": "Sage2000",
+      "dialogueSequence": "sf_1",
+      "reqInv": "",
+      "lineID": 9,
+      "numRespones": 1,
+      "endTalkArrPos": 10,
+      "characterLine": "Exactly like that, but fear not! I can help you regain your memory and cure the virus’s ‘plugging in’ has given you",
+      "possibleResponses": [
+        10
+        
       ]
     },
     {
@@ -250,10 +128,127 @@
       "dialogueSequence": "sf_1",
       "reqInv": "",
       "lineID": 10,
-      "numRespones": 0,
+      "numRespones": 1,
+      "endTalkPos": 10,
+      "characterLine": "Wow really? Thank you so much mister?",
+      "possibleResponses": [
+        11
+      ]
+    },
+    {
+      "characterID": "s",
+      "characterNickname": "Sage2000",
+      "dialogueSequence": "sf_1",
+      "reqInv": "",
+      "lineID": 11,
+      "numRespones": 1,
+      "endTalkArrPos": 10,
+      "characterLine": "My name is the Sage2000, but you can call me Sage! Don’t forget that you need to use the ‘Plug point’ often otherwise you’ll die!",
+      "possibleResponses": [
+        16        
+      ]
+    },
+    {
+      "characterID": "f",
+      "characterNickname": "Fin",
+      "dialogueSequence": "sf_1",
+      "reqInv": "",
+      "lineID": 12,
+      "numRespones": 1,
+      "endTalkPos": 10,
+      "characterLine": "But I don’t remember using it much. ",
+      "possibleResponses": [
+        13
+      ]
+    },
+    {
+      "characterID": "s",
+      "characterNickname": "Sage2000",
+      "dialogueSequence": "sf_1",
+      "reqInv": "",
+      "lineID": 13,
+      "numRespones": 1,
+      "endTalkArrPos": 10,
+      "characterLine": "You don't remember due to overuse boy!",
+      "possibleResponses": [
+        14
+      ]
+    },
+    {
+      "characterID": "f",
+      "characterNickname": "Fin",
+      "dialogueSequence": "sf_1",
+      "reqInv": "",
+      "lineID": 14,
+      "numRespones": 1,
+      "endTalkPos": 10,
+      "characterLine": "Is there anything I can do to cure myself?",
+      "possibleResponses": [
+        15
+      ]
+    },
+    {
+      "characterID": "s",
+      "characterNickname": "Sage2000",
+      "dialogueSequence": "sf_1",
+      "reqInv": "",
+      "lineID": 15,
+      "numRespones": 1,
+      "endTalkArrPos": 10,
+      "characterLine": "Retrieve your scattered memory fragments by completing puzzles and then return to me when you have one!",
+      "possibleResponses": [
+        18
+      ]
+    },
+    {
+      "characterID": "f",
+      "characterNickname": "Fin",
+      "dialogueSequence": "sf_1",
+      "reqInv": "",
+      "lineID": 16,
+      "numRespones": 1,
+      "endTalkPos": 10,
+      "characterLine": "What do I need to do for you to cure me? ",
+      "possibleResponses": [
+        15
+      ]
+    },
+    {
+      "characterID": "s",
+      "characterNickname": "Sage2000",
+      "dialogueSequence": "sf_1",
+      "reqInv": "",
+      "lineID": 17,
+      "numRespones": 1,
+      "endTalkPos": 10,
+      "characterLine": "Goodbye little one! Have a safe journey! ",
+      "possibleResponses": [
+        19
+      ]
+    },
+    {
+      "characterID": "f",
+      "characterNickname": "Fin",
+      "dialogueSequence": "sf_1",
+      "reqInv": "",
+      "lineID": 18,
+      "numRespones": 1,
+      "endTalkPos": 10,
+      "characterLine": "Ok, thanks for all the help Sage, see you later!  ",
+      "possibleResponses": [
+        17
+      ]
+    },
+    {
+      "characterID": "f",
+      "characterNickname": "Fin",
+      "dialogueSequence": "sf_1",
+      "reqInv": "",
+      "lineID": 19,
+      "numRespones": 1,
       "endTalkPos": -1,
       "characterLine": "Goodbye!",
-      "possibleResponses": []
+      "possibleResponses": [-1]
     }
 
   ]
